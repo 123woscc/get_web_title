@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "标题提取",
+    "version": "1.0",
+    "description": "获取当前页面的URL和标题",
+    "icons": {
+        "16": "images/16px.png",
+        "48": "images/48px.png",
+        "128": "images/128px.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/16px.png",
+            "38": "images/48px.png"
+        },
+        "default_title": "标题提取",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
